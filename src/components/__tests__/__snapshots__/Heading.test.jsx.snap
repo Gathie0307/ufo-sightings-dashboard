@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Heading > should match snapshot 1`] = `
+<DocumentFragment>
+  <h1
+    class="text-center text-3xl font-bold mt-5"
+  >
+    Hello World
+  </h1>
+</DocumentFragment>
+`;

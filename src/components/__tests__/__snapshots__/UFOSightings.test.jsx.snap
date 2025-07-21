@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UFO Sightings > should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mx-auto my-10 p-8 border-blue-200 border-2 rounded-sm shadow-xl w-[900px] h-[550px] relative"
+  >
+    <div
+      class="flex flex-col animate-pulse"
+    >
+      <div
+        class="mx-auto mr-2 bg-gray-200 bg-border-2 rounded-md border-gray-200 w-[800px] h-[382px]"
+      />
+      <div
+        class="flex justify-between items-center mt-8"
+      >
+        <div
+          class="mt-4 rounded-full px-4 py-2 bg-gray-200 text-white w-[150px] h-[42px]"
+        />
+        <div
+          class="mt-4 rounded-full px-4 py-2 bg-gray-200 text-white w-[150px] h-[42px]"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

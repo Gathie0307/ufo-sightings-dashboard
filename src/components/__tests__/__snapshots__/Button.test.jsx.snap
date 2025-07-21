@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > should match disabled snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="rounded-full w-[150px] px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 cursor-pointer disabled:cursor-not-allowed disabled:bg-gray-300 disabled:text-gray-500"
+    disabled=""
+  >
+    Next
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > should match enabled snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="rounded-full w-[150px] px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 cursor-pointer disabled:cursor-not-allowed disabled:bg-gray-300 disabled:text-gray-500"
+  >
+    Previous
+  </button>
+</DocumentFragment>
+`;
